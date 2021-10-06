@@ -1,6 +1,7 @@
-## --- functionexample2.R
+## --- functionexample3.R
 
-pow <- function( x, y=1 ) {
-  out <- x^y # raise x to power y
+doubleMax <- function( ... ) {
+  max.val <- max( ... ) # find largest value in ...
+  out <- 2 * max.val # double it
   return( out )
 }
